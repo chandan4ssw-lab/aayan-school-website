@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aayan Singh – Class 7 Student, SR Digi School</title>
+<meta name="description" content="Personal website of Aayan Singh, a Class 7 student at SR Digi School, Gajuwaka, Visakhapatnam.">
+<style>
+  :root {
+    --bg: #f5f7f2;
+    --ink: #1b2a26;
+    --muted: #54655f;
+    --accent: #1d7a5f;
+    --accent-soft: #dff0e8;
+    --line: #d8e0da;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111a18;
+      --ink: #e8efec;
+      --muted: #9db0a9;
+      --accent: #5fc9a6;
+      --accent-soft: #1b2e29;
+      --line: #263632;
+      --card: #182321;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: Georgia, "Times New Roman", serif; line-height: 1.7; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  header { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between; align-items: center; max-width: 900px; margin: 0 auto; padding: 1.25rem 1.25rem 0; font-family: system-ui, sans-serif; }
+  header strong { font-size: 1.05rem; }
+  nav a { margin-left: 1.1rem; text-decoration: none; color: var(--muted); }
+  nav a:hover { color: var(--accent); }
+  main { max-width: 900px; margin: 0 auto; padding: 0 1.25rem 3rem; }
+  .hero { padding: 4rem 0 3rem; border-bottom: 1px solid var(--line); }
+  .hero h1 { font-size: clamp(2.5rem, 8vw, 4.2rem); line-height: 1.05; margin: 0 0 1rem; }
+  .hero p { max-width: 37rem; font-size: 1.2rem; color: var(--muted); margin: 0 0 1.4rem; }
+  .tags { display: flex; flex-wrap: wrap; gap: .5rem; font-family: system-ui, sans-serif; font-size: .9rem; }
+  .tags span { background: var(--accent-soft); color: var(--accent); padding: .3rem .8rem; border-radius: 999px; }
+  section { padding: 2.5rem 0; border-bottom: 1px solid var(--line); }
+  section:last-of-type { border-bottom: 0; }
+  h2 { font-size: 1.7rem; margin: 0 0 .8rem; }
+  .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin-top: 1rem; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 1rem 1.15rem; }
+  .card h3 { margin: 0 0 .25rem; font-size: 1.1rem; }
+  .card p { margin: 0; color: var(--muted); font-size: .97rem; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: .7rem 1.5rem; margin: 1rem 0 0; background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 1.1rem 1.3rem; }
+  dt { font-family: system-ui, sans-serif; font-weight: 600; font-size: .95rem; color: var(--muted); }
+  dd { margin: 0; overflow-wrap: anywhere; }
+  @media (max-width: 560px) { dl { grid-template-columns: 1fr; gap: .1rem; } dd { margin-bottom: .7rem; } }
+  .gallery { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-top: 1rem; }
+  .gallery figure { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+  .gallery a { display: block; }
+  .gallery img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+  .gallery img.tall { aspect-ratio: 4 / 5; object-position: center 25%; }
+  .gallery figcaption { padding: .7rem 1rem; color: var(--muted); font-size: .95rem; }
+  .note { color: var(--muted); font-size: .9rem; margin-top: 1rem; }
+  footer { max-width: 900px; margin: 0 auto; padding: 0 1.25rem 2.5rem; color: var(--muted); font-family: system-ui, sans-serif; font-size: .9rem; }
+</style>
+</head>
+<body>
+<header>
+  <strong>Aayan Singh</strong>
+  <nav>
+    <a href="#about">About me</a>
+    <a href="#class">My class</a>
+    <a href="#school">My school</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <h1>Hi, I’m Aayan Singh.</h1>
+    <p>I’m a Class 7 student at SR Digi School in Visakhapatnam. I love learning new things and playing sports. This website tells you about me, my class, and my school.</p>
+    <div class="tags">
+      <span>Class 7 – Section B</span>
+      <span>CBSE</span>
+      <span>Cricket · Football · Badminton</span>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About me</h2>
+    <p>I’m a student who enjoys both studying and sports. After school, I like to spend my time playing outdoors and with friends. Sports teach me teamwork, patience, and how to keep trying even after a loss.</p>
+    <div class="grid">
+      <div class="card"><h3>Cricket</h3><p>Batting, bowling, and fielding with friends.</p></div>
+      <div class="card"><h3>Football</h3><p>Running, passing, and playing as a team.</p></div>
+      <div class="card"><h3>Badminton</h3><p>Quick reflexes and fun rallies.</p></div>
+    </div>
+  </section>
+
+  <section id="class">
+    <h2>My class</h2>
+    <p>I study in the 7th Standard, Section B. These are the four subjects I study this year:</p>
+    <div class="grid">
+      <div class="card"><h3>English</h3><p>Reading, writing, and speaking clearly.</p></div>
+      <div class="card"><h3>Social Science</h3><p>History, geography, and how society works.</p></div>
+      <div class="card"><h3>Science</h3><p>Understanding how the world around us works.</p></div>
+      <div class="card"><h3>Maths</h3><p>Numbers, patterns, and problem solving.</p></div>
+    </div>
+  </section>
+
+  <section id="school">
+    <h2>My school: SR Digi School</h2>
+    <p>My school is in Gajuwaka, Visakhapatnam. Here are some public details about it.</p>
+    <dl>
+      <dt>Board</dt><dd>Central Board of Secondary Education (CBSE)</dd>
+      <dt>Classes</dt><dd>Kindergarten to High School / Higher Secondary, including IIT Foundation courses</dd>
+      <dt>Address</dt><dd>GNT Road, Near Zinc Gate, Zinc Smelter Post Office, Gajuwaka, Visakhapatnam – 530026, Andhra Pradesh</dd>
+      <dt>Special features</dt><dd>Digital classrooms, multimedia learning platforms, and training for competitive exams</dd>
+      <dt>School phone</dt><dd>0891-2747060 · 0891-2593594 · +91 96421 11120</dd>
+      <dt>School email</dt><dd><a href="mailto:principalsrdigischoolvizag@gmail.com">principalsrdigischoolvizag@gmail.com</a></dd>
+      <dt>Website</dt><dd><a href="https://www.srdigischool.com" target="_blank" rel="noopener">www.srdigischool.com</a></dd>
+    </dl>
+    <p class="note">Source: the school’s public website and online school directories. Please check the school’s website for the latest details.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <p>Photos of my school and me. Tap a photo to see it bigger.</p>
+    <div class="gallery">
+      <figure>
+        <a href="school-building.jpg" target="_blank" rel="noopener"><img src="school-building.jpg" alt="The main building of SR Digi School with a yellow school bus parked in front" loading="lazy"></a>
+        <figcaption>SR Digi School building</figcaption>
+      </figure>
+      <figure>
+        <a href="aayan-day.jpg" target="_blank" rel="noopener"><img class="tall" src="aayan-day.jpg" alt="Aayan standing on a tree-lined road wearing sunglasses and a green t-shirt" loading="lazy"></a>
+        <figcaption>Me on a sunny day</figcaption>
+      </figure>
+      <figure>
+        <a href="aayan-evening.jpg" target="_blank" rel="noopener"><img class="tall" src="aayan-evening.jpg" alt="Aayan standing outside in the evening wearing a green t-shirt and white shorts" loading="lazy"></a>
+        <figcaption>Me in the evening</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>This is a school project website. To get in touch with my school, please use the school phone numbers and email listed above, or visit the school website.</p>
+  </section>
+</main>
+
+<footer>© 2026 Aayan Singh · School project</footer>
+</body>
+</html>
